@@ -10,9 +10,7 @@ for l in lst:
    else:
      tot=int(l[0])+int(l[2])
      print(tot)
-     
-     
-     # Gives a runtime error ---> We did not split the addition form 
+ # The above code gives a runtime error ---> We did not split 2+2 format.
      
 N= int(input())
 for i in range(N):
@@ -20,7 +18,7 @@ for i in range(N):
   if s == "P=NP":
     print("skipped")
   else:
-    l,m = s.split("+")
+    l,m = s.split("+")  
     l1 = int(l)
     m1 = int(m)
     print(l1 + m1)
